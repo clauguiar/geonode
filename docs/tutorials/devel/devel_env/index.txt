@@ -29,8 +29,8 @@ Summary of the installation steps
 
     .. code-block:: console
 
-        service apache2 stop
-        service tomcat7 stop
+        $ sudo service apache2 stop
+        $ sudo service tomcat7 stop
 
 #. If possible log as **root** user, open a terminal and ``cd /home/geonode/dev``
 
