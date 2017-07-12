@@ -59,6 +59,7 @@ Summary of the installation steps
    .. code-block:: console
 
         $ sudo pip install virtualenvwrapper
+        $ sudo apt-get install virtualenvwrapper
 
    *PostgreSQL & PostGIS*
 
