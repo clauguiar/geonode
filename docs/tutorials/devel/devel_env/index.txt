@@ -216,7 +216,9 @@ Summary of the installation steps
 
         $ cd /home/geonode/dev
         $ pip install pip --upgrade
-        $ pip install -e geonode --use-mirrors
+        
+        # add the --use-mirrors flag if pip < 7.0
+        $ pip install -e geonode
 
         $ cd geonode
 
